@@ -14,7 +14,7 @@ main {
 /* sticky footer code/styling */
 footer {
   flex-shrink: 0;
-
+  margin-top: 5rem;
   color: #fff;
   background-color: #000;
 }
