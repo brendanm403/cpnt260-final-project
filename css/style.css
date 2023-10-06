@@ -11,9 +11,25 @@ main {
   flex: 1 0 auto;
 }
 
-/* sticky footer code */
+/* sticky footer code/styling */
 footer {
   flex-shrink: 0;
+
+  color: #fff;
+  background-color: #000;
+}
+
+/* container for copyright info and logo and gifs in footer */
+footer div {
+  display: flex;
+  padding: 1rem;
+  
+  align-items: center;
+}
+
+footer img, p {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .title-logo-container {
