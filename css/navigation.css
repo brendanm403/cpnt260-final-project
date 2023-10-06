@@ -1,0 +1,75 @@
+/* container for nav, site title, logo */
+header {
+  border-bottom: 3px solid #000;
+}
+
+nav a {
+  color: #fff;
+  
+  padding: 1rem 4rem;
+}
+
+nav li {
+  padding: 1rem;
+
+  background-color: #000;
+}
+
+div > a {
+  color: #000;
+}
+
+nav a:active {
+  color: hsl(216, 52%, 62%);
+  background-color: hsl(0, 0%, 30%);
+}
+
+nav li:active {
+  background-color: hsl(0, 0%, 30%);
+}
+
+.active-page {
+  background-color: #000;
+  color: hsl(216, 52%, 62%);
+}
+
+@media screen and (width >= 50rem) {
+  header  {
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* container for links */
+  nav ul {
+    display: flex;
+    margin: 0 1rem;
+  }
+
+  nav a {
+    padding: 1rem;
+
+    color: #000;
+  }
+
+  nav li {
+    padding: unset;
+
+    background-color: unset;
+  }
+
+  nav a:hover {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(216, 52%, 62%);
+  }
+
+  nav a:active {
+    color: #fff;
+    background-color: #000;
+  }
+
+  nav li:active {
+    background-color: unset;
+  }
+}

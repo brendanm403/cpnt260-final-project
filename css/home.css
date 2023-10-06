@@ -1,0 +1,74 @@
+h1 {
+  margin: 0;
+  padding: 1rem;
+  font-size: 59px;
+  
+  color: #fff;
+}
+
+article {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  width: 200px;
+  border: 3px solid rgba(0, 0, 0, 0.6);
+  border-radius: 1rem;
+}
+
+section div {
+  display: flex;
+  max-width: 500px;
+  gap: 1rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+article p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  color: hsl(216, 52%, 62%);
+  background-color: #000;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(../images/hero-img.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+article p:active {
+  color: #fff;
+  transform: scale(0.9);
+}
+
+@media screen and (width >= 50rem) {
+  h1 {
+    font-size: 70px;
+  }
+
+  article:hover {
+    transform: scale(1.1);
+  }
+
+  article p:hover {
+    transform: scale(1.1);
+  }
+
+  article p:active {
+    transform: scale(1);
+  }
+
+}
+
+@media screen and (width < 454px) {
+  h1 {
+    font-size: 50px;
+  }
+}

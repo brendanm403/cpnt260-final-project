@@ -1,0 +1,24 @@
+/* text fonts */
+body {
+  font-family: "Rubik", Arial, Helvetica, sans-serif, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* display font */
+h1, h2, h3, h6 {
+  font-family: "Michroma", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}

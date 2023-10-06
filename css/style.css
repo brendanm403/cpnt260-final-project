@@ -1,0 +1,35 @@
+/* sticky footer code */
+body {
+  display: flex;
+  min-height: 100vh;
+  
+  flex-direction: column;
+}
+
+/* sticky footer code */
+main {
+  flex: 1 0 auto;
+}
+
+/* sticky footer code */
+footer {
+  flex-shrink: 0;
+}
+
+.title-logo-container {
+  display: flex;
+  padding: 1rem;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.site-title {
+  margin: 0;
+}
+
+/* resizes svg logo */
+.ice-cave-logo {
+  height: 60px;
+  width: 80px;
+}
