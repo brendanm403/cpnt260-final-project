@@ -22,6 +22,15 @@ section div {
   margin: auto;
 }
 
+section p, h2 {
+  padding: 1rem;
+}
+
+section p {
+  max-width: 60ch;
+  margin: auto;
+}
+
 article p {
   text-align: center;
   margin: 0 0 1rem 0;
