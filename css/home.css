@@ -1,3 +1,4 @@
+/**** element selectors ****/
 h1 {
   margin: 0;
   padding: 1rem;
@@ -40,11 +41,18 @@ article p {
   background-color: #000;
 }
 
+article p:active {
+  color: #fff;
+  transform: scale(0.9);
+}
+
 img {
   display: block;
   margin: auto;
 }
 
+
+/**** class styles ****/
 .hero {
   height: 100vh;
   background-image: url(../images/hero-img.jpg);
@@ -52,16 +60,13 @@ img {
   background-position: center;
 }
 
-article p:active {
-  color: #fff;
-  transform: scale(0.9);
-}
-
+/* desktop styles */
 @media screen and (width >= 50rem) {
   h1 {
     font-size: 70px;
   }
 
+  /* cta hover, active styles */
   article:hover {
     transform: scale(1.1);
   }
@@ -76,6 +81,7 @@ article p:active {
 
 }
 
+/* small mobile display tweaks */
 @media screen and (width < 454px) {
   h1 {
     font-size: 50px;
