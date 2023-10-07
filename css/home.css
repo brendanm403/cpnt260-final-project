@@ -46,10 +46,10 @@ section h2 {
   padding: 1rem;
 }
 
-.description {
-  max-width: 60ch;
-  margin: auto;
-  padding: 1rem;
+iframe {
+  margin: 5rem auto 0 auto;
+  display: block;
+  border-radius: 1rem;
 }
 
 /**** class styles ****/
@@ -58,6 +58,12 @@ section h2 {
   background-image: url(../images/hero-img.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.description {
+  max-width: 60ch;
+  margin: auto;
+  padding: 1rem;
 }
 
 /* desktop styles */
