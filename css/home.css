@@ -15,23 +15,6 @@ article {
   border-radius: 1rem;
 }
 
-section div {
-  display: flex;
-  max-width: 500px;
-  gap: 1rem;
-  padding: 1rem;
-  margin: auto;
-}
-
-section p, h2 {
-  padding: 1rem;
-}
-
-section p {
-  max-width: 60ch;
-  margin: auto;
-}
-
 article p {
   text-align: center;
   margin: 0 0 1rem 0;
@@ -51,6 +34,23 @@ img {
   margin: auto;
 }
 
+section div {
+  display: flex;
+  max-width: 500px;
+  gap: 1rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+section h2 {
+  padding: 1rem;
+}
+
+.description {
+  max-width: 60ch;
+  margin: auto;
+  padding: 1rem;
+}
 
 /**** class styles ****/
 .hero {
