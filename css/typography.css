@@ -20,5 +20,17 @@ nav ul {
 }
 
 footer p {
+  font-size: 14px;
   text-align: center;
+}
+
+footer ul {
+  text-align: center;
+  font-size: 14px;
+}
+
+@media screen and (width >= 50rem) {
+  footer p, footer ul {
+    font-size: 20px;
+  }  
 }

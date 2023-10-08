@@ -23,19 +23,30 @@ footer {
 footer div {
   display: flex;
   padding: 1rem;
-  
+  justify-content: center;
   align-items: center;
 }
 
-footer img, p {
-  margin-bottom: 0;
-  margin-top: 0;
+footer img {
+  margin: 0;
+  max-width: 20%;
+  display: block;
+}
+
+footer p {
+  margin-bottom: 1rem;
+  
+}
+
+.doormat-nav {
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .title-logo-container {
   display: flex;
   padding: 1rem;
-  
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -48,4 +59,14 @@ footer img, p {
 .ice-cave-logo {
   height: 60px;
   width: 80px;
+}
+
+@media screen and (width >= 50rem) {
+  .title-logo-container {
+    display: flex;
+    padding: 1rem;
+    
+    align-items: center;
+    justify-content: center;
+  }
 }

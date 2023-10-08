@@ -33,6 +33,14 @@ nav li:active {
   color: hsl(216, 52%, 62%);
 }
 
+footer a {
+  color: #fff;
+  padding: 1rem;
+}
+
+footer a:active {
+  color: hsl(216, 52%, 62%);;
+}
 @media screen and (width >= 50rem) {
   header  {
     display: flex;
@@ -55,7 +63,7 @@ nav li:active {
 
   nav li {
     padding: unset;
-
+    
     background-color: unset;
   }
 
@@ -71,5 +79,9 @@ nav li:active {
 
   nav li:active {
     background-color: unset;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
   }
 }
