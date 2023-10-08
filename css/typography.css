@@ -1,3 +1,5 @@
+/**** element selectors ****/
+
 /* text fonts */
 body {
   font-family: "Rubik", Arial, Helvetica, sans-serif, sans-serif;
@@ -5,7 +7,7 @@ body {
   line-height: 1.6;
 }
 
-/* display font */
+/* display fonts */
 h1, h2, h3, h6 {
   font-family: "Michroma", Arial, Helvetica, sans-serif;
   text-align: center;
@@ -29,6 +31,7 @@ footer ul {
   font-size: 14px;
 }
 
+/* increase font sizes in footer on desktop */
 @media screen and (width >= 50rem) {
   footer p, footer ul {
     font-size: 20px;
