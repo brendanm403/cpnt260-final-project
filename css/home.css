@@ -50,6 +50,8 @@ iframe {
   margin: 5rem auto 0 auto;
   display: block;
   border-radius: 1rem;
+  width: 90%;
+  height: 300px;
 }
 
 /**** class styles ****/
@@ -85,6 +87,10 @@ iframe {
     transform: scale(1);
   }
 
+  iframe {
+    height: 520px;
+    width: 75%;
+  }
 }
 
 /* small mobile display tweaks */
