@@ -35,4 +35,8 @@ button {
     gap: 1rem;
     justify-content: center;
   }
+
+  main h2 {
+    min-width: 10ch;
+  }
 }
