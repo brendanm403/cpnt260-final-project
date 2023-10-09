@@ -1,12 +1,14 @@
+/**** element selectors ****/
+
 /* container for nav, site title, logo */
 header {
   border-bottom: 3px solid #000;
 }
 
 nav a {
-  color: #fff;
-  
   padding: 1rem 4rem;
+  
+  color: #fff;
 }
 
 nav li {
@@ -15,6 +17,7 @@ nav li {
   background-color: #000;
 }
 
+/* turned site title into home page link, makes text black again */
 div > a {
   color: #000;
 }
@@ -28,19 +31,23 @@ nav li:active {
   background-color: hsl(0, 0%, 30%);
 }
 
-.active-page {
-  background-color: #000;
-  color: hsl(216, 52%, 62%);
-}
-
+/* different color/for doormat nav links  */
 footer a {
   color: #fff;
-  padding: 1rem;
 }
 
 footer a:active {
   color: hsl(216, 52%, 62%);;
 }
+
+/**** class selectors ****/
+
+.active-page {
+  background-color: #000;
+  color: hsl(216, 52%, 62%);
+}
+
+/* sets main nav layout/styles, link hover/active effects on desktop*/
 @media screen and (width >= 50rem) {
   header  {
     display: flex;
@@ -49,22 +56,22 @@ footer a:active {
     justify-content: space-between;
   }
 
-  /* container for links */
+  /* container for links in main navigation */
   nav ul {
     display: flex;
     margin: 0 1rem;
-  }
-
-  nav a {
-    padding: 1rem;
-
-    color: #000;
   }
 
   nav li {
     padding: unset;
     
     background-color: unset;
+  }
+
+  nav a {
+    padding: 1rem;
+
+    color: #000;
   }
 
   nav a:hover {
