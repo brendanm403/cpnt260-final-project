@@ -1,0 +1,38 @@
+h1 {
+  font-size: 40px;
+
+  color: hsl(216, 52%, 45%);
+}
+
+main h2 {
+  font-size: 25px;
+}
+
+article div {
+  padding: 1rem;
+  max-width: 57ch;
+}
+
+article ul {
+  text-align: center;
+}
+
+/* overall tour score */
+.score {
+  margin-top: 3rem;
+}
+
+button {
+ margin: 3rem auto 0 auto;
+ display: block;
+}
+
+/* sets desktop layout */
+@media screen and (width >= 50rem) {
+  article {
+    display: flex;
+  
+    gap: 1rem;
+    justify-content: center;
+  }
+}
