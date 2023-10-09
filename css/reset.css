@@ -7,7 +7,7 @@ a {
   text-decoration: none;
 }
 
-nav ul, footer ul {
+nav ul, footer ul, article ul {
   margin: 0;
   padding-left: 0;
   
