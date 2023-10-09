@@ -2,6 +2,7 @@
 - [spheal](https://www.pokencyclopedia.info/tools/spr-info.php?id=/gen5/ani_black-white/./363&lang=en&secretid=d19ec1ad266b7a53c81aa416830aa731)
 - [snorunt](https://www.pokencyclopedia.info/tools/spr-info.php?id=/gen5/ani_black-white/./361&lang=en&secretid=e4a59eb078429ceec98ecbde82f2fa2a)
 - [home page video](https://www.youtube.com/watch?v=FvzDkpYiLoI)
+- [kyogre](https://www.pokencyclopedia.info/tools/spr-info.php?id=/gen5/ani_black-white/./345&lang=en&secretid=2f83b6757f340b2940fe6a1670d356ba)
 - []()
 - []()
 - []()
