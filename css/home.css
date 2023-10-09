@@ -1,80 +1,99 @@
 /**** element selectors ****/
+
 h1 {
+  font-size: 59px;
+  
   margin: 0;
   padding: 1rem;
-  font-size: 59px;
   
   color: #fff;
 }
 
+/* semi-transparent containers for cta button and pokemon */
 article {
-  background-color: rgba(255, 255, 255, 0.6);
   padding: 1rem;
   width: 200px;
+  
   border: 3px solid rgba(0, 0, 0, 0.6);
   border-radius: 1rem;
+  
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
+/* cta button */
 article p {
   text-align: center;
+  
   margin: 0 0 1rem 0;
+  
   border: 3px solid rgba(255, 255, 255, 0.5);
   border-radius: 1rem;
-  color: hsl(216, 52%, 62%);
+  
   background-color: #000;
+  color: hsl(216, 52%, 62%);
 }
 
+/* styles when button pressed */
 article p:active {
-  color: #fff;
   transform: scale(0.9);
+  color: #fff;
 }
 
+/* centers pokemon gifs */
 img {
   display: block;
   margin: auto;
 }
 
+/* container to position cta cards */
 section div {
   display: flex;
-  max-width: 500px;
-  gap: 1rem;
-  padding: 1rem;
   margin: auto;
+  padding: 1rem;
+
+  gap: 1rem;
+  justify-content: center;
 }
 
 section h2 {
   padding: 1rem;
 }
 
+/* video player styles */
 iframe {
-  margin: 5rem auto 0 auto;
   display: block;
-  border-radius: 1rem;
-  width: 90%;
+  margin: 5rem auto 0 auto;
   height: 300px;
+  width: 90%;
+  
+  border-radius: 1rem;
 }
 
 /**** class styles ****/
+
+/* hero section */
 .hero {
   height: 100vh;
+  
   background-image: url(../images/hero-img.jpg);
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
+/* ice caves information text */
 .description {
-  max-width: 60ch;
   margin: auto;
   padding: 1rem;
+  max-width: 60ch;
 }
 
-/* desktop styles */
+/* sets desktop styles */
 @media screen and (width >= 50rem) {
   h1 {
     font-size: 70px;
   }
 
-  /* cta hover, active styles */
+  /* cta container hover, active styles */
   article:hover {
     transform: scale(1.1);
   }
@@ -87,6 +106,7 @@ iframe {
     transform: scale(1);
   }
 
+  /* video player styles */
   iframe {
     height: 520px;
     width: 75%;
