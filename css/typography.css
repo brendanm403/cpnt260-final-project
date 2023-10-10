@@ -27,12 +27,14 @@ nav ul {
 
 footer p {
   font-size: 14px;
+  
   text-align: center;
 }
 
 footer ul {
-  text-align: center;
   font-size: 14px;
+  
+  text-align: center;
 }
 
 /* increase font sizes in footer on desktop */

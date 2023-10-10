@@ -36,6 +36,7 @@ article p {
 /* styles when button pressed */
 article p:active {
   transform: scale(0.9);
+  
   color: #fff;
 }
 

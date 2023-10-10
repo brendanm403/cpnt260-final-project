@@ -8,9 +8,10 @@ main h2 {
   font-size: 25px;
 }
 
+/* flex item containers */
 article div {
-  padding: 1rem;
   max-width: 57ch;
+  padding: 1rem;
 }
 
 article ul {
@@ -23,8 +24,8 @@ article ul {
 }
 
 button {
- margin: 3rem auto 0 auto;
- display: block;
+  display: block;
+  margin: 3rem auto 0 auto;
 }
 
 /* sets desktop layout */

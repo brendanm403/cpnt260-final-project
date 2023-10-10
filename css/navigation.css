@@ -31,7 +31,7 @@ nav li:active {
   background-color: hsl(0, 0%, 30%);
 }
 
-/* different color/for doormat nav links  */
+/* different color for doormat nav links  */
 footer a {
   color: #fff;
 }
@@ -80,8 +80,8 @@ footer a:active {
   }
 
   nav a:active {
-    color: #fff;
     background-color: #000;
+    color: #fff;
   }
 
   nav li:active {
