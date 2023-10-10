@@ -74,8 +74,10 @@ iframe {
 
 /* hero section */
 .hero {
-  height: 100vh;
+  height: 87vh;
   
+  border-bottom: 3px solid black;
+
   background-image: url(../images/hero-img.jpg);
   background-position: center;
   background-size: cover;
@@ -117,6 +119,6 @@ iframe {
 /* small mobile display tweaks */
 @media screen and (width < 454px) {
   h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
