@@ -1,0 +1,76 @@
+h1 {
+  font-size: 50px;
+  margin: 3rem 0;
+}
+
+main div {
+  max-width: fit-content;
+  margin: auto;
+}
+
+section {
+  padding: 1rem;
+}
+
+.card-container {
+  max-width: 27ch;
+  padding: 1rem;
+  border: 3px solid #000;
+  border-radius: 1rem;
+  
+  margin-bottom: 2rem;
+}
+
+.card-img {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.card-text {
+  margin-bottom: 0;
+}
+
+.blue-white {
+  background-image: linear-gradient(hsl(216, 52%, 50%), hsl(0, 0%, 100%));
+}
+
+.brown-white {
+  background-image: linear-gradient(hsl(26, 30%, 56%), hsl(0, 0%, 100%));
+}
+
+.purple-white {
+  background-image: linear-gradient(hsl(4, 66%, 62%), hsl(278, 24%, 62%), hsl(0, 0%, 100%));
+}
+
+.green-white {
+  background-image: linear-gradient(hsl(164, 21%, 53%), #b7a891, hsl(0, 0%, 100%));
+}
+
+.orange-white {
+  background-image: linear-gradient(hsl(26, 78%, 67%), hsl(0, 0%, 100%));
+}
+
+.black-white {
+  background-image: linear-gradient(hsl(300, 1%, 33%), hsl(0, 0%, 100%));
+}
+
+@media screen and (width >= 60rem) {
+  section {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (width >= 50rem) and (width < 60rem) {
+  section {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-container {
+    margin: 0 1rem 2rem 1rem;
+  }
+}
