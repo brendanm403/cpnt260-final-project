@@ -17,7 +17,7 @@ article {
   border: 3px solid rgba(0, 0, 0, 0.6);
   border-radius: 1rem;
   
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* cta button */
@@ -49,7 +49,6 @@ img {
 /* container to position cta cards */
 section div {
   display: flex;
-  margin: auto;
   padding: 1rem;
 
   gap: 1rem;
