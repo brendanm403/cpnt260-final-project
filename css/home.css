@@ -77,7 +77,7 @@ iframe {
   
   border-bottom: 3px solid black;
 
-  background-image: url(../images/hero-img.jpg);
+  background-image: url(../images/hero-img2.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -93,6 +93,7 @@ iframe {
 @media screen and (width >= 50rem) {
   h1 {
     font-size: 70px;
+    margin-bottom: 8rem;
   }
 
   /* cta container hover, active styles */
@@ -121,3 +122,41 @@ iframe {
     font-size: 45px;
   }
 }
+
+.fade-in {
+  animation: fadeIn 4s;
+}
+
+.slide-in-left {
+  animation: slideInLeft 2s;
+}
+
+.slide-in-right {
+  animation: slideInRight 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-200px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(200px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
