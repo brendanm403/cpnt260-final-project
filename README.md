@@ -8,7 +8,7 @@
 ## Attributions
 
 ### Hero Section
-- [hero image](https://www.pexels.com/photo/snow-capped-mountains-under-full-moon-3510717/)
+- [hero image](https://www.pexels.com/photo/ice-in-a-cave-7127403/)
 - [spheal gif](https://www.pokencyclopedia.info/tools/spr-info.php?id=/gen5/ani_black-white/./363&lang=en&secretid=d19ec1ad266b7a53c81aa416830aa731)
 - [snorunt gif](https://www.pokencyclopedia.info/tools/spr-info.php?id=/gen5/ani_black-white/./361&lang=en&secretid=e4a59eb078429ceec98ecbde82f2fa2a)
 - [home page video](https://www.youtube.com/watch?v=FvzDkpYiLoI)
@@ -29,3 +29,8 @@
 - [ground icon](https://archives.bulbagarden.net/wiki/File:Ground_icon_SwSh.png)
 - [ice icon](https://archives.bulbagarden.net/wiki/File:Ice_icon_SwSh.png)
 - [psychic icon](https://archives.bulbagarden.net/wiki/File:Psychic_icon_SwSh.png)
+
+### Code 
+- [text fade in](https://blog.hubspot.com/website/css-fade-in)
+- [sliding elements](https://www.youtube.com/watch?v=SgmNxE9lWcY)
+- [sticky footer](https://css-tricks.com/couple-takes-sticky-footer/)
