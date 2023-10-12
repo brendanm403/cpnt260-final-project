@@ -47,6 +47,10 @@ footer a:active {
   color: hsl(216, 52%, 62%);
 }
 
+.border-bottom {
+  border-bottom: 3px solid #fff;
+}
+
 /* sets main nav layout/styles, link hover/active effects on desktop*/
 @media screen and (width >= 50rem) {
   header  {
