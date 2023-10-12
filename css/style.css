@@ -63,3 +63,12 @@ footer p {
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+/* font awesome styles */
+.fa-coins, .fa-star {
+  color: #f0c824;
+}
+
+.fa-mountain {
+  color: #cddcf8;
+}
