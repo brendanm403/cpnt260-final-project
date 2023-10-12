@@ -1,9 +1,9 @@
 /**** element selectors ****/
 
 h1 {
-  font-size: 59px;
+  font-size: 57px;
   
-  margin: 0;
+  margin: 0 0 2rem 0;
   padding: 1rem;
   
   color: #fff;
@@ -17,7 +17,7 @@ article {
   border: 3px solid rgba(0, 0, 0, 0.6);
   border-radius: 1rem;
   
-  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2px);
 }
 
 /* cta button */
