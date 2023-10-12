@@ -98,6 +98,19 @@ iframe {
   max-width: 60ch;
 }
 
+/* h1 fade effect, cta slide in effects */
+.fade-in {
+  animation: fadeIn 4s;
+}
+
+.slide-in-left {
+  animation: slideInLeft 2s;
+}
+
+.slide-in-right {
+  animation: slideInRight 2s;
+}
+
 /* sets desktop styles */
 @media screen and (width >= 50rem) {
   h1 {
@@ -132,18 +145,7 @@ iframe {
   }
 }
 
-.fade-in {
-  animation: fadeIn 4s;
-}
-
-.slide-in-left {
-  animation: slideInLeft 2s;
-}
-
-.slide-in-right {
-  animation: slideInRight 2s;
-}
-
+/* controls animations */
 @keyframes fadeIn {
   0% {opacity: 0;}
   100% {opacity: 1;}
