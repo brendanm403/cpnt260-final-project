@@ -4,6 +4,11 @@
 
 ## Important Notes
 - I added a button in the reviews section that deletes content so you can see the sticky footer. I had trouble laying out the page so it was short enough so I did this instead.
+- I was confused about how to make the hero section not spill out of the viewport while on mobile due to the nav taking up so much space. Shrinking the vh didn't make sense to me because then it took up the same amount of space as the nav links which made it too small to be a hero section I think. I decided to just let it overflow the viewport on mobile so it was still a large section.
+
+
+## Above and Beyond
+- sticky footer, style.css line 4, 12, 17.
 
 ## Attributions
 
