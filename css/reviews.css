@@ -11,9 +11,10 @@ main h2 {
 }
 
 /* flex item containers */
-article div {
+article {
   max-width: 57ch;
   padding: 1rem;
+  margin: auto;
 }
 
 article ul {
@@ -29,19 +30,13 @@ button {
 
 /* overall tour score */
 .score {
-  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* sets desktop layout */
 @media screen and (width >= 50rem) {
-  article {
-    display: flex;
-  
-    gap: 1rem;
-    justify-content: center;
-  }
-
-  main h2 {
-    min-width: 10ch;
+  article li {
+    display: inline;
+    margin-right: 2rem;
   }
 }
